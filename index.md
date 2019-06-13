@@ -1,12 +1,13 @@
 ## Links
 
-You can listen to the [music](https://open.spotify.com/album/0S0KGZnfBGSIssfF54WSJh).
+my favorite [music](https://open.spotify.com/album/0S0KGZnfBGSIssfF54WSJh)
 
-You can read [movie reviews](https://www.imdb.com/title/tt2283336/).
+[movie](https://www.imdb.com/title/tt2283336/) I'm going to watch tmr
 
-You can launch [Google!](https://www.google.com/)
+ask any question to [Google!](https://www.google.com/)
 
-You can launch [maps](https://www.google.com/maps)
+[maps](https://www.google.com/maps) I used the most
+
 
 ## Plans
 
@@ -15,13 +16,20 @@ all my hardworks
 ```markdown
 
 - workout hard
+
 - work hard
+
 - learn hard
+
 - play hard
+
 - eat hard
+
 - sleep hard
+
 - love myself hard
-- love my dog hard too
+
+- love my dog too
 
 ```
 
