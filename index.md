@@ -1,4 +1,4 @@
-## why is this the best website ever?
+## Links
 
 You can listen to the [music](https://open.spotify.com/album/0S0KGZnfBGSIssfF54WSJh).
 
@@ -8,30 +8,23 @@ You can launch [Google!](https://www.google.com/)
 
 You can launch [maps](https://www.google.com/maps)
 
-### you can learn how to use markdown!
+### Plans
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+hardwork list
 
 ```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+- workout hard
+- work hard
+- learn hard
+- play hard
+- eat hard
+- sleep hard
+- love myself hard
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+
 
 ### Support or Contact
+For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
