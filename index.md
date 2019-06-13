@@ -1,8 +1,12 @@
 ## why is this the best website ever?
 
-You can [listen to music](https://open.spotify.com/album/0S0KGZnfBGSIssfF54WSJh).
+You can listen to the [music](https://open.spotify.com/album/0S0KGZnfBGSIssfF54WSJh).
 
-You can [read movie reviews](https://www.imdb.com/title/tt2283336/).
+You can read [movie reviews](https://www.imdb.com/title/tt2283336/).
+
+You can launch [Google!](https://www.google.com/)
+
+You can launch [maps](https://www.google.com/maps)
 
 ### you can learn how to use markdown!
 
