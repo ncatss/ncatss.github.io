@@ -1,13 +1,18 @@
 ## Learning Log
 &nbsp;
-**08/04/2019**
---------------------
-__Store Passward Safely__: *salt + hash + stretching*
-
-* hash --> so that password can not be directly read; also dont show infomation about password length etc
-* salt --> so that people cannot just generate hashcode dictionary for common password to do comparison directly / same password transfer to different hashcode for different user
-* stretching --> to slow down offline attacks. (they can keep moving forwards for a hashcode or generate values for salt (from AA to ZZ)
-
+<details><summary>08/04/2019 | Store Passward Safely</summary>
+<p>
+*Basic Ideas:*
+  
+```
+* hash --> password can not be directly read; 
+           don't show information about password length etc.
+* salt --> people cannot just generate hashcode dictionary for common password to do comparison directly;
+           same password transfer to different hashcode for different user
+* stretching --> to slow down offline attacks. 
+                 (they can keep moving forwards for a hashcode or generate values for salt (from AA to ZZ)
+```
+  
 *Steps:*
 ```
 - Use a strong random number generator to create a salt of 16 bytes or longer. 
@@ -28,6 +33,9 @@ __Store Passward Safely__: *salt + hash + stretching*
 ```
 [Reference Details](https://nakedsecurity.sophos.com/2013/11/20/serious-security-how-to-store-your-users-passwords-safely/)
 
+
+</p>
+</details>
 
 &nbsp;
 ## Links
