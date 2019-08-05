@@ -1,10 +1,13 @@
 ## Learning Log
 
-**08/04/2019**
-*__save passward data__: salt + hash + stretching*
+> **08/04/2019**
+--------------------
+__Store Passward Safely__: *salt + hash + stretching*
+```
 * hash -> so that password can not be directly read; also dont show infomation about password length etc
 * salt -> so that people cannot just generate hashcode dictionary for common password to do comparison directly / same password transfer to different hashcode for different user
 * stretching -> to slow down offline attacks. (they can keep moving forwards for a hashcode or generate values for salt (from AA to ZZ)
+
 *Steps:*
 - Use a strong random number generator to create a salt of 16 bytes or longer. (use CryptoAPI on Windows or /dev/urandom on Unix-like systems, dont use random() in C etc)
 
@@ -19,6 +22,7 @@
   * Take 32 bytes (256 bits) of output from PBKDF2 as the final password hash.
   
 - Store the iteration count, the salt and the final hash in your password database.
+```
 [Reference Details](https://nakedsecurity.sophos.com/2013/11/20/serious-security-how-to-store-your-users-passwords-safely/)
 
 
