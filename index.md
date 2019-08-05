@@ -1,6 +1,6 @@
 ## Learning Log
-
-> **08/04/2019**
+&nbsp;
+**08/04/2019**
 --------------------
 __Store Passward Safely__: *salt + hash + stretching*
 ```
@@ -26,6 +26,7 @@ __Store Passward Safely__: *salt + hash + stretching*
 [Reference Details](https://nakedsecurity.sophos.com/2013/11/20/serious-security-how-to-store-your-users-passwords-safely/)
 
 
+&nbsp;
 ## Links
 
 my favorite [music](https://open.spotify.com/album/0S0KGZnfBGSIssfF54WSJh)
@@ -39,6 +40,7 @@ ask any question to [Google!](https://www.google.com/)
 text to ASCII Art [Generator](http://patorjk.com/software/taag/#p=display&f=Graffiti&t=Type%20Something%20)
 
 
+&nbsp;
 ## Plans
 
 all my hardworks
@@ -64,7 +66,7 @@ all my hardworks
 ```
 
 
-
+&nbsp;
 ## Support or Contact
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
