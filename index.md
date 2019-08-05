@@ -1,7 +1,7 @@
 ## Learning Log
-&nbsp;
 <details><summary>08/04/2019 | Store Passward Safely</summary>
 <p>
+  
 *Basic Ideas:*
   
 ```
