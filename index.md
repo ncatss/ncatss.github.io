@@ -1,8 +1,9 @@
 ## Learning Log
-<details><summary>08/04/2019 | Store Passward Safely</summary>
-<p>
-  
-*Basic Ideas:*
+<details>
+  <summary>08/04/2019 | Store Passward Safely</summary>
+
+
+> Basic Ideas:
   
 ```
 * hash --> password can not be directly read; 
@@ -13,7 +14,7 @@
                  (they can keep moving forwards for a hashcode or generate values for salt (from AA to ZZ)
 ```
   
-*Steps:*
+> Steps:
 ```
 - Use a strong random number generator to create a salt of 16 bytes or longer. 
   (use CryptoAPI on Windows or /dev/urandom on Unix-like systems)
@@ -32,9 +33,6 @@
 - Store the iteration count, the salt and the final hash in your password database.
 ```
 [Reference Details](https://nakedsecurity.sophos.com/2013/11/20/serious-security-how-to-store-your-users-passwords-safely/)
-
-
-</p>
 </details>
 
 &nbsp;
