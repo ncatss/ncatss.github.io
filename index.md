@@ -20,10 +20,10 @@ _Steps:_
 
 * Feed the salt and the password into the PBKDF2 algorithm.
 	* Use HMAC-SHA-256 as the core hash inside PBKDF2. (SHA-256 better than MD5 or SHA-1, since those proven giving same hash for 2 different data)
-		* take random key K; flip some bits, giving K1;
- 		* compute SHA-256 hash for K1 + password, giving H1;
- 		* flip a different set of bits in K, giving K2;
- 		* compute SHA-256 hash for K2 + H1, giving final hash H2.  
+		1. take random key K; flip some bits, giving K1;  
+		2. compute SHA-256 hash for K1 + password, giving H1;  
+		3. flip a different set of bits in K, giving K2;  
+		4. compute SHA-256 hash for K2 + H1, giving final hash H2.  
 	* Perform 80,000 iterations or more [March 2019]. (Increase iteration count regularly to keep up with faster cracking tools)
 	* Take 32 bytes (256 bits) of output from PBKDF2 as the final password hash.
   
