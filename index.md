@@ -1,5 +1,21 @@
 ## Learning Log
 <details>
+  <summary>08/05/2019 | Mutex</summary>
+</details>
+
+_What it's doing:_
+* a mutex is locking mechanism used to synchronize access to a resource. it makes multi-threads taking turns to access same resource. (to prevent multiple-threads from accessing the same memory)
+
+_Why?_
+(the reordering of memory access and lack atomicity in large data structures)
+* CPU doesn’t concern itself with data structures, it only concerns itself with primitive types. So the actions of writing big data structure are not atomic.
+* CPU changes the order in which data is written and read from that cache.(so mutex has a fence).
+
+_Things to be carefully about:_
+* a recursion mutex can be locked more than once. but if it's non-recursion mutex --> If a thread which had already locked a mutex, tries to lock the mutex again, it will enter into the waiting list of that mutex, which results in deadlock. 
+
+&nbsp;
+<details>
   <summary>08/04/2019 | Store Passward Safely</summary>
 </details>
 
